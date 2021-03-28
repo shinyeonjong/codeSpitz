@@ -4,5 +4,4 @@ const sum = (arr, accumulator) => {
     }
     return accumulator
 }
-const arr = [1,2,3,4,5,6]
-sum(arr, 0)
+sum([1,2,3,4,5,6], 0)
